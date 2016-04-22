@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form action="procesoPagoServlet" method="POST" class="form-giggs">
+                <h2 class="page-header">Realizar un pago</h2>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                    <label for="cuenta">Cuenta:</label>
+                    <input type="text" class="form-control" id="cuenta" name="cuenta" placeholder="Ingrese su cuenta">
+                </div>
+                <div class="form-group">
+                    <label for="valor">Valor:</label>
+                    <input type="text" class="form-control" id="valor" name="valor" placeholder="Ingrese el valor">
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Pagar</button>
+            </form>
+    </body>
+</html>
